@@ -3,15 +3,15 @@ const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
 let courses = new Schema({
-    
-  letter: {
+
+  cid: {
     type: String
   },
-  dept: {
+  name: {
     type: String
   },
-  courses: {
-    type: Array
+  gmid: {
+    type: Number
   }
     
 });
